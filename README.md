@@ -8,3 +8,5 @@ TweetPersonaBot is a Python project that uses the Twitter API and `OllamaLLM` to
 - Uses `OllamaLLM` (LLaMA model) to generate a new tweet that imitates Playboi Carti's style.
 - Automatically posts the generated tweet to your Twitter account using the Tweepy API.
 - Ensures no URLs or extra explanations in the generated tweet
+
+  ![image](https://github.com/user-attachments/assets/c0a05ed6-7a54-4171-b537-feefe3ee2d62)
