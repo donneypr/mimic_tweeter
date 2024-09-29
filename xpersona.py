@@ -58,14 +58,12 @@ def get_all_tweets(username):
         print(f"An error occurred: {e}")
         return []
 
-# Function to generate a tweet in Playboi Carti's style
 def generate_tweet_from_style(tweets):
     tweet_history = "\n".join(tweets)
 
     prompt = (
      f"Here are some tweets by Playboi Carti:\n{tweet_history}\n\n"
         "Can you imitate Playboi Carti and give me a tweet he would say\n"
-        "There must not be any URLs in the tweet\n"
         "- No explanation, no URLs, just the tweet itself."
     )
     
