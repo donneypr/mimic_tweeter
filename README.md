@@ -9,4 +9,7 @@ TweetPersonaBot is a Python project that uses the Twitter API and `OllamaLLM` to
 - Automatically posts the generated tweet to your Twitter account using the Tweepy API.
 - Ensures no URLs or extra explanations in the generated tweet
 
+<<<<<<< Updated upstream
   ![image](https://github.com/user-attachments/assets/c0a05ed6-7a54-4171-b537-feefe3ee2d62)
+=======
+>>>>>>> Stashed changes
