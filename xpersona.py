@@ -62,18 +62,6 @@ def get_all_tweets(username):
 def generate_tweet_from_style(tweets):
     tweet_history = "\n".join(tweets)
 
-    # Describe Playboi Carti's style and prompt the model
-    # prompt = (
-    #     f"Here are some tweets by Playboi Carti:\n{tweet_history}\n\n"
-    #     "Generate 1 new tweet in Playboi Carti's unique style. The tweet should:\n"
-    #     "- Be in lowercase\n"
-    #     "- Use fragmented sentences\n"
-    #     "- Include random capitalizations and eccentric spellings\n"
-    #     "- Be casual and spontaneous in tone\n"
-    #     "- Incorporate emojis like 🧛🏿‍♂️, 🚀, and ❤️\n"
-    #     "- The tweet should not have any URLs\n"
-    # )
-
     prompt = (
      f"Here are some tweets by Playboi Carti:\n{tweet_history}\n\n"
         "Can you imitate Playboi Carti and give me a tweet he would say\n"
